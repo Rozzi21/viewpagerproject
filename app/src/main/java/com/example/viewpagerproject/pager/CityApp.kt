@@ -10,6 +10,6 @@ import com.example.viewpagerproject.data.CityDataResource
 fun CityApp() {
     Column {
         CityTabCarousel() // viewpager
-        CityList(cityList = CityDataResource().loadCities()) // LazyList
+//        CityList(cityList = CityDataResource().loadCities()) // LazyList
     }
 }
