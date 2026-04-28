@@ -34,7 +34,6 @@ fun CityCard(city: City) {
                 text = LocalContext.current.getString(city.nameResourceId),
                 modifier = Modifier.padding(16.dp),
                 style = MaterialTheme.typography.headlineMedium
-
             )
         }
     }
